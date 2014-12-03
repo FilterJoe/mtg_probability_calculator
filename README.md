@@ -1,7 +1,7 @@
 # Joe Golton's Magic the Gathering (mtg) Land Probability Calculator
 
 > Just let me see it! Web version (NBViewer):
-[mtg_probability_calculator](http://nbviewer.ipython.org/github/FilterJoe/tree/master/mtg_probability_calculator)
+[mtg_probability_calculator](http://nbviewer.ipython.org/github/FilterJoe/mtg_probability_calculator/blob/master/mtg_probability_calculator.ipynb)
 
 Note that the interactive sliders do not appear or work on the web version of this as of December 3, 2014. When iPython Notebook moves to version 3.0, it will work. Until then, interactivity will only work if the notebook is downloaded to a local system where iPython Notebook is up and running.
 
