@@ -1,13 +1,13 @@
-# Joe Golton's Magic the Gathering (mtg) land probability calculator
+# Joe Golton's Magic the Gathering (mtg) Land Probability Calculator
 
 > Just let me see it! Web version (NBViewer):
-[ex1](http://nbviewer.ipython.org/github/FilterJoe/machine_learning_Ng_iPythonNotebooks/tree/master/ex1)
+[mtg_probability_calculator](http://nbviewer.ipython.org/github/FilterJoe/tree/master/mtg_probability_calculator)
 
 Note that the interactive sliders do not appear or work on the web version of this as of December 3, 2014. When iPython Notebook moves to version 3.0, it will work. Until then, interactivity will only work if the notebook is downloaded to a local system where iPython Notebook is up and running.
 
 ## Introduction
 
-This land probability calculator for Magic the Gathering is a fun way for me to cement my understanding of probability theory [DeGroot and Schervish, chapter 1](http://www.amazon.com/Probability-Statistics-4th-Morris-DeGroot/dp/0321500466), practice probability calculation in Python, and at the same have an interesting tool to support my family's new hobby.
+This land probability calculator for Magic the Gathering is a fun way for me to cement my understanding of probability theory ([DeGroot and Schervish](http://www.amazon.com/Probability-Statistics-4th-Morris-DeGroot/dp/0321500466), chapter 1), practice probability calculation in Python, and at the same have an interesting tool to support my family's new hobby.
 
 ## What this does
 
@@ -16,9 +16,9 @@ Magic the Gathering intro packs recommend the following defaults for land constr
 * 60 card deck
 * 24 lands in the deck
 
-There is better than an 85% chance of starting with at least 2 lands when drawing your initial 7 card hand, which is shown on the tool. You can use the sliders to change around any of the numbers and see how that impacts probability of for each possible number of lands appearing in the initial hand draw.
+There is better than an 85% chance of starting with at least 2 lands when drawing your initial 7 card hand, which the tool shows with its default settings. You can use the sliders to change around any of the numbers and see how probability is impacted for each possible number of lands appearing in the initial hand draw.
 
-It can be useful to think of land tappable creatures as lands for the purposes of this calculation. For example, if you have 20 lands and 4 Mystic Elves, that is essentially equivalent to 24 lands (well, not really, because there are many more ways to lose a Mystic Elf than a land . . . but it's still useful to think of your starting hand this way as you're not likely to lose an Elf on turn 1).
+It can be useful to think of land tappable creatures as lands for the purposes of this calculation. For example, if you have 20 lands and 4 Mystic Elves, that is essentially equivalent to 24 lands (well, not really, because there are many more ways to lose a Mystic Elf than a land . . . but it's still useful to think of your starting hand this way as you're not likely to lose a Mystic Elf on turn 1).
 
 You may want to consider mulligans in your calculation. Move the mulligan slider to "1" and you'll see the probabilities for the subsequent 6 card draw, as well as the chances of getting below or above your desired range of lands to start with.
 
